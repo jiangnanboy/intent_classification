@@ -1,4 +1,4 @@
-# 基于pytorch的意图识别模型
+# 利用深度模型实现意图识别
     基于对话语句的意图进行识别，主要实现一些神经网络分类模型。
     可参考作者另一个项目：https://github.com/jiangnanboy/movie_knowledge_graph_app。
     这里使用电影问答的相关数据进行测试。

@@ -41,7 +41,7 @@
 
     1.利用分类模型对用户输入的问题进行意图识别
     
-    (1).训练数据在目录 intent_classification\classification_data\classification_segment_data.txt
+    (1).训练数据在目录 intent_classification\classification_data下：classification_segment_data.txt 和 classification_data.csv
     
     (2).总共16个意图类别，见目录 intent_classification\classification_data\question_classification.txt
     

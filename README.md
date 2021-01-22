@@ -52,43 +52,43 @@
     
     (3).识别和预测
     
-        a.分类模型1，这里使用feedforward-network进行意图识别
+        (a).feedforward-network进行意图识别
     
-        训练代码：intent_classification\feedforward_network\train.ipynb
+            训练代码：intent_classification\feedforward_network\train.ipynb
         
-        预测代码：intent_classification\feedforward_network\predict.ipynb
+            预测代码：intent_classification\feedforward_network\predict.ipynb
         
-        b.分类模型2，这里使用textcnn进行意图识别
+        (b).textcnn进行意图识别
     
-        其中[sgns.sogou.char]使用了sogou的预训练向量可从这里下载(https://github.com/Embedding/Chinese-Word-Vectors)
+            其中[sgns.sogou.char]使用了sogou的预训练向量可从这里下载(https://github.com/Embedding/Chinese-Word-Vectors)
         
-        训练代码：intent_classification\textcnn\train.ipynb
+            训练代码：intent_classification\textcnn\train.ipynb
         
-        预测代码：intent_classification\textcnn\predict.ipynb
+            预测代码：intent_classification\textcnn\predict.ipynb
         
-        c.分类模型3，这里使用textrnn进行意图识别
+        (c).textrnn进行意图识别
     
-        其中[sgns.sogou.char]使用了sogou的预训练向量可从这里下载(https://github.com/Embedding/Chinese-Word-Vectors)
+            其中[sgns.sogou.char]使用了sogou的预训练向量可从这里下载(https://github.com/Embedding/Chinese-Word-Vectors)
         
-        训练代码：intent_classification\textrnn\train.ipynb
+            训练代码：intent_classification\textrnn\train.ipynb
         
-        预测代码：intent_classification\textrnn\predict.ipynb
+            预测代码：intent_classification\textrnn\predict.ipynb
         
-        d.分类模型4，这里使用textrcnn进行意图识别
+        (d).textrcnn进行意图识别
     
-        其中[sgns.sogou.char]使用了sogou的预训练向量可从这里下载(https://github.com/Embedding/Chinese-Word-Vectors)
+            其中[sgns.sogou.char]使用了sogou的预训练向量可从这里下载(https://github.com/Embedding/Chinese-Word-Vectors)
         
-        训练代码：intent_classification\textrcnn\train.ipynb
+            训练代码：intent_classification\textrcnn\train.ipynb
         
-        预测代码：intent_classification\textrcnn\predict.ipynb
+            预测代码：intent_classification\textrcnn\predict.ipynb
         
-        e.分类模型5，这里使用transformer-encoder进行意图识别
+        (e).transformer-encoder进行意图识别
     
-        同上，可以使用预训练向量[sgns.sogou.char]
+            同上，可以使用预训练向量[sgns.sogou.char]
         
-        训练代码：intent_classification\transformer_encoder\train.ipynb
+            训练代码：intent_classification\transformer_encoder\train.ipynb
         
-        预测代码：intent_classification\transformer_encoder\predict.ipynb
+            预测代码：intent_classification\transformer_encoder\predict.ipynb
 
 ### 后续......
     1.实现更多的深度分类模型
@@ -104,4 +104,4 @@
 
 ### References
 * https://github.com/jiangnanboy/movie_knowledge_graph_app
-    
+* https://github.com/jiangnanboy/education_knowledge_graph_app    

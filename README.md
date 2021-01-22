@@ -31,6 +31,8 @@
 ├── textrnn
 │   
 ├── textrcnn
+│ 
+├── transformer-encoder
 │   
 │  
 │ 
@@ -41,9 +43,12 @@
 
     1.利用分类模型对用户输入的问题进行意图识别
     
-    (1).训练数据在目录 intent_classification\classification_data下：classification_segment_data.txt 和 classification_data.csv
+    (1).训练数据在目录 intent_classification\classification_data下
+        电影训练数据：classification_segment_data.txt与classification_data.csv
+        教育学科训练数据：knowledge_point_qa_data.csv
     
-    (2).总共16个意图类别，见目录 intent_classification\classification_data\question_classification.txt
+    (2).有16个意图的电影数据，见目录 intent_classification\classification_data\question_classification.txt；
+        有9个意图的教育学科数据，见目录 intent_classification\classification_data\knowledge_point_qa_classification.txt；
     
     (3).识别和预测
     
@@ -76,6 +81,14 @@
         训练代码：intent_classification\textrcnn\train.ipynb
         
         预测代码：intent_classification\textrcnn\predict.ipynb
+        
+        e.分类模型5，这里使用transformer-encoder进行意图识别
+    
+        同上，可以使用预训练向量[sgns.sogou.char]
+        
+        训练代码：intent_classification\transformer_encoder\train.ipynb
+        
+        预测代码：intent_classification\transformer_encoder\predict.ipynb
 
 ### 后续......
     1.实现更多的深度分类模型

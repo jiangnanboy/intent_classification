@@ -24,17 +24,17 @@
 .
 ├── classification_data //训练和测试用数据
 │   
-├── feedforward_network
+├── feedforward_network //前馈网络
 │   
-├── textcnn
+├── textcnn //textcnn
 │       
-├── textrnn
+├── textrnn //textrnn
 │   
-├── textrcnn
+├── textrcnn //textrcnn
 │ 
-├── transformer-encoder
+├── transformer-encoder // transformer-encoder
 │   
-│  
+├── cnn_residual //残差cnn
 │ 
 .
 ```
@@ -89,6 +89,14 @@
             训练代码：intent_classification\transformer_encoder\train.ipynb
         
             预测代码：intent_classification\transformer_encoder\predict.ipynb
+            
+        (f).cnn-residual进行意图识别
+        
+            同上，可以使用预训练向量[sgns.sogou.char]
+        
+            训练代码：intent_classification\cnn_residual\train.ipynb
+        
+            预测代码：intent_classification\cnn_residual\predict.ipynb
 
 ### 后续......
     1.实现更多的深度分类模型
@@ -105,3 +113,4 @@
 ### References
 * https://github.com/jiangnanboy/movie_knowledge_graph_app
 * https://github.com/jiangnanboy/education_knowledge_graph_app    
+* https://github.com/bentrevett/pytorch-seq2seq
